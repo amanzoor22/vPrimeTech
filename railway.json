@@ -7,7 +7,7 @@
   "deploy": {
     "runtime": "V2",
     "numReplicas": 1,
-    "startCommand": "./out serve --http=\"0.0.0.0:$PORT\"",
+    "startCommand": "./out serve --http=0.0.0.0:${PORT}"
     "sleepApplication": false,
     "multiRegionConfig": {
       "asia-southeast1-eqsg3a": {
